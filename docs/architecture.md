@@ -10,3 +10,7 @@ The inventory platform is designed around a clean separation of responsibilities
 6. Report analyzers identify security and cost optimization opportunities.
 
 This structure makes it easier to add more services and keep the codebase maintainable as the project grows.
+
+## Package structure
+
+Each top-level module directory (`core/`, `scanners/`, `exporters/`, `reports/`) is a Python package and requires an `__init__.py` file so imports work properly from the CLI and tests.
