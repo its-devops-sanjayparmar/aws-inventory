@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:Describe*",
+        "s3:GetBucketLocation",
+        "s3:ListAllMyBuckets",
+        "s3:ListBucket",
+        "iam:List*",
+        "iam:Get*",
+        "logs:DescribeLogGroups",
+        "elasticloadbalancing:Describe*",
+        "rds:Describe*",
+        "cloudwatch:List*",
+        "cloudwatch:Describe*",
+        "sts:GetCallerIdentity"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
