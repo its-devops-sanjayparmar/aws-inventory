@@ -132,6 +132,11 @@ A minimum read-only policy example is available in [docs/iam-policy.json](docs/i
 pytest -q
 ```
 
+## Notes
+
+- The `core`, `scanners`, `exporters`, and `reports` directories are Python packages.
+- If you add a new top-level module directory, include an `__init__.py` file so tests and imports work correctly.
+
 ## Roadmap
 
 Planned expansion areas include:
